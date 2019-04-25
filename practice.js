@@ -44,14 +44,16 @@ function greeting(name) {
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+let newGreeting = function(name) {
+  return "Hello, " + name
+}
 
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+let groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
