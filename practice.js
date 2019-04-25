@@ -117,7 +117,17 @@ let mathSum = add(3, 4)
 // If the passed in color equals 'black', return 'so trendy'
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
-// Code here
+function faveColorFinder(color){
+  if (color === 'red'){
+    return 'red is a great color'
+  } else if(color === 'green'){
+    return 'green is a solid favorite color'
+  } else if (color === 'black'){
+    return 'so trendy'
+  } else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
 
 //////////////////PROBLEM 13////////////////////
 
