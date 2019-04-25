@@ -62,12 +62,17 @@ let groceries = ["apples", "milk", "eggs", "bread"]
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+let dog = {
+  name: "Jackie",
+  color: "white",
+  age: 3,
+  goodBoy: true
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+let devMountainClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
